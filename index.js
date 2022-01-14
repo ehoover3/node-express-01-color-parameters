@@ -12,6 +12,15 @@ app.get("/", function (req, res) {
                 <h2 style="text-align: center;">NAV BAR</h2>
             </div>
             <h1>White Page</h1>
+            <button>
+            <a href="/red">Red</a>
+        </button>
+        <button>
+            <a href="/green">Green</a>
+        </button>
+        <button>
+            <a href="/blue">Blue</a>
+        </button>
         </body>
     `);
 });
@@ -24,6 +33,7 @@ app.get("/:color", function (req, res) {
             <div style="border: 1px solid black; height: 10vh; background-color: ${myColor};">
                 <h2 style="text-align: center;">NAV BAR</h2>
             </div>
+            <h1 style="color: ${myColor};">${myColor.charAt(0).toUpperCase() + myColor.slice(1)} Page</h1>
             <button>
                 <a href="/red">Red</a>
             </button>
@@ -33,7 +43,6 @@ app.get("/:color", function (req, res) {
             <button>
                 <a href="/blue">Blue</a>
             </button>
-            <h1 style="color: ${myColor};">${myColor.charAt(0).toUpperCase() + myColor.slice(1)} Page</h1>
         </body>
     `);
 });
