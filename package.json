@@ -1,0 +1,24 @@
+{
+  "name": "express-01-color-parameters",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ehoover3/node-express-01-color-parameters.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ehoover3/node-express-01-color-parameters/issues"
+  },
+  "homepage": "https://github.com/ehoover3/node-express-01-color-parameters#readme",
+  "dependencies": {
+    "dotenv": "^11.0.0",
+    "express": "^4.17.2"
+  }
+}
